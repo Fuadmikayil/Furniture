@@ -33,6 +33,7 @@
 .head1>.nav_right>i{
     font-size: 27px;
     cursor: pointer;
+    position: relative;
 }
 .head1>.nav_right>.search{
     display: flex;
@@ -47,7 +48,7 @@
 }
 .head1>.nav_right>.search>input{
     background: transparent;
-    
+    width: 200px;
 }
 .head1>.nav_right>a{
     color: #242424;
@@ -57,4 +58,21 @@
 }
 .head1>.nav_right>a:hover{
     color: #f28958;
+}
+.head1>.nav_right>i>div{
+    background: #fb6723;
+    width:  17px;
+    height: 17px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -3px;
+    bottom: 3px;
+}
+.head1>.nav_right>i>div>h4{
+    font-size: 12px;
+    color: white;
+
 }
