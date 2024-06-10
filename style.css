@@ -1,3 +1,4 @@
+/*Head Start*/
 .head1{
     display: flex;
     justify-content: space-between;
@@ -22,6 +23,10 @@
     color: #242424;
     font-weight: 600;
     padding: 5px 10px;
+    transition: .4s;
+}
+.head1>nav>a:hover{
+    color: #f28958;
 }
 .head1>.nav_right{
     display: flex;
@@ -76,3 +81,26 @@
     color: white;
 
 }
+.head1>nav>.Page_nav_wrapper{
+    position: relative;
+    top: 0;
+}
+.head1>nav>.Page_nav_wrappe>.Page_nav{
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px 20px;
+    border-top: 1px solid #fb6723;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.head1>nav>.Page_nav_wrappe>.Page_nav>a{
+    color: #242424;
+    font-weight: 600;
+    transition: .4s;
+}
+/*Head End*/
+/*Hero Start*/
+/*Hero End*/
