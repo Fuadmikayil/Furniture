@@ -115,15 +115,55 @@
     position: relative;
 }
 .hero>.hero-text{
-    width: 450px;
-    height: 400px;
+    max-width: 540px;
     position: absolute;
     top: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     left: 150px;
     background-color: white;
-    padding: 20px;
+    padding: 30px 50px;
 }
-.hero>.hero-text>
+.hero>.hero-text>h4{
+    color: #7F85A8;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.hero>.hero-text>h2{
+    font-size:60px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.hero>.hero-text>p{
+    font-size:18px;
+    color: #646D77;
+
+}
+.hero>.hero-text>a{
+    font-size:16px;
+    background-color: #FD8F5F;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 13px 0;
+    width: 200px;
+    position: relative;
+}
+.hero>.hero-text>a>div{
+    background-color: #242424;
+    opacity: .1;
+    padding: 25px 0;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+.hero>.hero-text>a:hover div{
+    width: 100%;
+}
 .hero>.add{
     width: 200px;
     height: 38px;
