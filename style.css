@@ -114,6 +114,16 @@
     border-bottom:  38px solid #F2E1D9;
     position: relative;
 }
+.hero>.hero-text{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    background-color: white;
+    padding: 20px;
+}
+.hero>.hero-text>
 .hero>.add{
     width: 200px;
     height: 38px;
