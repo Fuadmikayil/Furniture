@@ -174,3 +174,24 @@
     left: 0px;
 }
 /*Hero End*/
+/*PRODUCTS Start*/
+.PRODUCTS{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 30px;
+}
+.PRODUCTS>.text-center{
+    text-align: center;
+    max-width: 650px;
+    margin:  0 auto;
+}
+.PRODUCTS>.text-center>h1{
+    font-size: 38px;
+}
+.PRODUCTS>.text-center>p{
+    color: #7F85A8;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*PRODUCTS End*/
