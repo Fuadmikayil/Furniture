@@ -428,3 +428,11 @@
 }
 
 /*LikeProducts End*/
+/*service Start*/
+.service{
+    display: flex;
+    background-color: #F2E1D9;
+    width: 100%;
+    height: 30vh;
+}
+/*service End*/
