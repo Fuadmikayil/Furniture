@@ -4,6 +4,11 @@
     justify-content: space-between;
     align-items: center;
     background-color: #F2E1D9;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
     padding: 40px 0;
 }
 
@@ -130,6 +135,7 @@
     border-right: 38px solid #F2E1D9;
     border-bottom: 38px solid #F2E1D9;
     position: relative;
+    margin-top: 50px;
 }
 
 .hero>.hero-text {
@@ -458,8 +464,9 @@
 /*service End*/
 /*footer Start*/
 footer{
-    padding: 50px 65px ;
+    padding: 70px 85px ;
     background-color: #1D2547;
+    position: relative;
 }
 footer>.footer_about{
     display: flex;
@@ -473,8 +480,8 @@ footer>.footer_about>.footer_about_logo{
     width: 400px;
 }
 footer>.footer_about>.footer_about_logo>img{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
 }
 footer>.footer_about>.footer_about_logo>p{
@@ -529,5 +536,13 @@ footer>h4{
 }
 footer>h4>i,span{
     color: #FD764F;
+}
+footer>.line{
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F2E1D9;
 }
 /*footer End*/
