@@ -208,6 +208,7 @@
     padding: 40px 30px;
     align-items: center;
 }
+
 .text-center {
     text-align: center;
     max-width: 650px;
@@ -216,6 +217,7 @@
 .text-center>h1 {
     font-size: 38px;
 }
+
 .text-center>p {
     color: #7F85A8;
     font-size: 16px;
@@ -243,7 +245,7 @@
 .product_about {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -286,15 +288,17 @@
     max-width: 48%;
 }
 
-.MANUFACTURER>.manufacturer_aboute{
+.MANUFACTURER>.manufacturer_aboute {
     display: flex;
     flex-direction: column;
     gap: 25px;
     padding: 50px 0;
 }
+
 .MANUFACTURER>.manufacturer_aboute>h2 {
     font-size: 40px;
 }
+
 .MANUFACTURER>.manufacturer_aboute>a {
     font-size: 16px;
     background-color: #FD8F5F;
@@ -320,47 +324,76 @@
 .MANUFACTURER>.manufacturer_aboute>a:hover div {
     width: 100%;
 }
+
 /*MANUFACTURER End*/
 
 /*WITH_INSTAGRAM Start*/
-.WITH_INSTAGRAM{
+.WITH_INSTAGRAM {
     display: flex;
-    padding: 5px 10px;
+    padding: 5px 40px;
+    height: 350px;
 }
-.WITH_INSTAGRAM>.WITH_INSTAGRAM_text{
+
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_text {
     display: flex;
     flex-direction: column;
-    width: 80%;
     padding: 0 10px;
     gap: 15px;
 }
-.WITH_INSTAGRAM>.WITH_INSTAGRAM_text>i{
+
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_text>i {
     font-size: 79px;
     color: rgb(253, 141, 99);
 }
-.WITH_INSTAGRAM>.WITH_INSTAGRAM_text>a{
-    width: 250px;
+
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_text>a {
+    width: 230px;
 }
-.WITH_INSTAGRAM>.WITH_INSTAGRAM_img{
+
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_img {
     width: 100%;
     background: url("./images/instra1.png.webp");
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
 }
-.WITH_INSTAGRAM> .img2{
+
+.WITH_INSTAGRAM>.img2 {
     background: url("./images/instra2.png.webp");
     background-position: center;
 }
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_img>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #07073547;
+    opacity: 0;
+    transition: .5s;
+    transform: translate(0,-20px);
+}
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_img>a>i{
+    color: white;
+    font-size: 35px;
+}
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_img:hover a{
+    opacity: 1;
+    transform: translate(0,0px);
+}
 /*WITH_INSTAGRAM End*/
 /*LikeProducts Start*/
-.LikeProducts{
+.LikeProducts {
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: center;
     padding: 60px 50px;
 }
-.DISCOVER_btn{
+
+.DISCOVER_btn {
     border: 1px solid #FD8F5F;
     color: #FD8F5F;
     background: none;
@@ -371,23 +404,27 @@
     overflow: hidden;
     transition: .5s;
 }
-.DISCOVER_btn>div{
+
+.DISCOVER_btn>div {
     position: absolute;
     background: #e44602cd;
     width: 100%;
     height: 100%;
     top: 0;
-    transform: translate(0,-55px );
+    transform: translate(0, -55px);
     left: 0;
     transition: .5s;
     z-index: -9999;
 }
-.DISCOVER_btn:hover div{
-    transform: translate(0,0);
+
+.DISCOVER_btn:hover div {
+    transform: translate(0, 0);
 
 }
-.DISCOVER_btn:hover{
+
+.DISCOVER_btn:hover {
     color: white;
 
 }
+
 /*LikeProducts End*/
