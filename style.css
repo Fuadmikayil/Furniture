@@ -433,6 +433,101 @@
     display: flex;
     background-color: #F2E1D9;
     width: 100%;
-    height: 30vh;
+    justify-content: space-evenly; 
+    padding: 70px; 
+    position: relative;
+}
+.service>.service_about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;  
+
+}
+.service>.service_about>img{
+    width: 60px;
+    height: 60px;
+}
+.service>.white{
+    width: 30px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 /*service End*/
+/*footer Start*/
+footer{
+    padding: 50px 65px ;
+    background-color: #1D2547;
+}
+footer>.footer_about{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+footer>.footer_about>.footer_about_logo{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 400px;
+}
+footer>.footer_about>.footer_about_logo>img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+footer>.footer_about>.footer_about_logo>p{
+    color: #C2C5DB;
+}
+footer>.footer_about>.footer_about_logo>div>i{
+    color: white;
+    padding: 0 10px;
+    border-radius: 50%;
+    width: 40px;
+    line-height: 40px;
+    border: 1px solid white;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+footer>.footer_about>.footer_about_logo>div>i:hover{
+    background:  #d65b23;
+    border-color:  #d65b23;
+    transform:rotateY(180deg);
+}
+footer>.footer_about>.footer_about_select{
+    display: flex;
+    width: 55%;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+footer>.footer_about>.footer_about_select>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+footer>.footer_about>.footer_about_select>div>h2{
+    color: white;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+footer>.footer_about>.footer_about_select>div>a{
+    color: #A29FB0;
+    transition: .4s;
+}
+footer>.footer_about>.footer_about_select>div>a:hover{
+    color: #d65b23;
+}
+footer>h4{
+    color: #C2C5DB;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 70px ;
+}
+footer>h4>i,span{
+    color: #FD764F;
+}
+/*footer End*/
