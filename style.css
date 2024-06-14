@@ -321,6 +321,37 @@
     width: 100%;
 }
 /*MANUFACTURER End*/
+
+/*WITH_INSTAGRAM Start*/
+.WITH_INSTAGRAM{
+    display: flex;
+    padding: 5px 10px;
+}
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_text{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0 10px;
+    gap: 15px;
+}
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_text>i{
+    font-size: 79px;
+    color: rgb(253, 141, 99);
+}
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_text>a{
+    width: 250px;
+}
+.WITH_INSTAGRAM>.WITH_INSTAGRAM_img{
+    width: 100%;
+    background: url("./images/instra1.png.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.WITH_INSTAGRAM> .img2{
+    background: url("./images/instra2.png.webp");
+    background-position: center;
+}
+/*WITH_INSTAGRAM End*/
 /*LikeProducts Start*/
 .LikeProducts{
     display: flex;
